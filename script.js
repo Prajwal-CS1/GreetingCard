@@ -20,7 +20,7 @@ openBtn.addEventListener('click', () => {
 yesBtn.addEventListener('click', () => {
     // play a little sound and show success message + confetti
     playDing();
-    inside.innerHTML = `<h2 class="mb-2">Yes! 💕</h2><p class="mb-3">yayyyyyyyyyyyy!</p>`;
+    inside.innerHTML = `<h2 class="mb-2">Yes!💕</h2><p class="mb-3">yayyyyyyyyyyyy😼!</p>`;
     showConfetti();
     // lovely glow
     document.getElementById('card').classList.add('success');
