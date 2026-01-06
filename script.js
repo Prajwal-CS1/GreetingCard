@@ -59,7 +59,7 @@ noBtn.addEventListener('click', (e) => {
 
         // After a couple of tries, show the temporary message
         if (noClickCount >= 2 && noClickCount < NO_CLICK_THRESHOLD) {
-            showTemporaryText(noBtn, 'no i am not', 4500);
+            showTemporaryText(noBtn, 'kina 😾', 4500);
         }
     }
 });
@@ -88,7 +88,7 @@ function showNoTransformation(btn) {
     // Create the popup message element
     const popup = document.createElement('div');
     popup.className = 'final-message-popup';
-    popup.textContent = 'i am not the one';
+    popup.textContent = '😾';
     document.body.appendChild(popup);
 
     // Trigger the "pop up" animation
